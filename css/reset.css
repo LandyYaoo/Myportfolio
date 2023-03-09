@@ -6,9 +6,11 @@
    text-decoration: none;
    list-style: none;
 }
+
 html{
    scroll-behavior: smooth;
 }
+
 body {
    background-image: url(../assets/fondo2.svg);
    background-repeat: repeat;

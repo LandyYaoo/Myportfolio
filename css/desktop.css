@@ -46,6 +46,7 @@
       margin-top: -10rem;
       flex-direction: column;
    }
+   
    #info h2{
       margin-left: 3rem;
    }
@@ -63,6 +64,7 @@
    .second {
       text-align: start;
    }
+   
    #projects {
       align-self: center;
       justify-content: space-evenly;
@@ -70,15 +72,18 @@
       width: 100vh;
       height: 80vh;
    }
+   
    #projects h1 {
       margin: 2rem 0;
    }
+   
    #proyectos {
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: 1fr;
       gap: 3vh;
       margin-bottom: 2rem;
    }
+   
    #proyecto1 {
       grid-column: 1;
       grid-row: 1 / 1;
@@ -108,11 +113,7 @@
       font-size: 2.5rem;
    }
 
-   #yourname {
-      height: 7vh;
-   }
-
-   #youremail {
+   #yourname, #youremail {
       height: 7vh;
    }
 

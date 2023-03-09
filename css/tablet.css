@@ -1,25 +1,22 @@
-:root {
-   --color1: #4c3a55;
-   --color2: #684b61;
-   --color3: #9e637a;
-   --color4: #dc8f98;
-   --color5: #e2bba7;
-}
-
 @media (min-width: 650px) {
    #check {
       display: none;
    }
+   
    #checkbtn {
       display: none;
    }
+   
    #nav ul li a {
       font-size: 1.2rem;
    }
+   
    #hero h2 {
       font-size: 28px;
    }
+   
 }
+
 @media (max-width: 650px) {
    #nav > ul {
       position: fixed;
@@ -32,13 +29,17 @@
       border-radius: 10%;
       transition: all 0.5s;
    }
+   
    #nav ul li {
       display: block;
    }
+   
    #nav ul li a {
       line-height: 1.5rem;
    }
+   
    #check:checked ~ ul {
       left: 0;
    }
+   
 }
